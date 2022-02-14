@@ -1,0 +1,11 @@
+[package]
+name = "hello-ml"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.53"
+autograd = { git = "https://github.com/raskr/rust-autograd" }
+indicatif = "0.16.2"
