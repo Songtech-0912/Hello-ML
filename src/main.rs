@@ -98,7 +98,7 @@ fn main() {
             );
         } else {
             println!(
-                "Finish epoch {} in {}.{:03} sec with loss",
+                "Finish epoch {} in {}.{:03} sec",
                 epoch,
                 end.as_secs(),
                 end.subsec_nanos() / 1_000_000
